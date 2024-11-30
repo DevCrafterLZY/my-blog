@@ -7,7 +7,16 @@ category: Guides
 draft: false
 ---
 
-# 项目介绍
+# 服务器上搭建VPN
+
+根据 https://github.com/Elegycloud/clash-for-linux-backup 实现
+
+# tip
+1. 如果出现restart失败，或9090端口无法访问，可能是订阅的连接有问题，可以尝试更换订阅地址（2024.11.30）
+
+
+
+# github readme 备份
 
 此项目是通过使用开源项目[clash（已跑路）](https://github.com/Dreamacro/clash)作为核心程序，再结合脚本实现简单的代理功能。<br>
 clash核心备份仓库[Clash-backup](https://github.com/Elegycloud/clash-for-linux-backup)
