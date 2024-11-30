@@ -56,11 +56,11 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 #### 3. 修改astro.config.mjs文件
-<img src="content/posts/24_11_27_2/img1.png" alt="config" />
+<img src="https://img.z4a.net/image/img1.ZD88A" alt="config" />
 其中site为`https://<你的github用户名>.github.io`
 
 base为`/<你github中该项目的名称>`
 
 #### 4. github配置
 
-<img src="content/posts/24_11_27_2/img2.png" alt="github"/>
+<img src="https://img.z4a.net/image/img2.ZDdyu" alt="github"/>
