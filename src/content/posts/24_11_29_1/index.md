@@ -1,7 +1,7 @@
 ---
-title: 服务器上搭建VPN
+title: 服务器上使用VPN
 published: 2024-11-29
-description: "服务器上搭建VPN"
+description: "服务器上使用VPN"
 tags: ["VPN", "Ubuntu"]
 category: Guides
 draft: false
