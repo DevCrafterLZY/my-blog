@@ -1,8 +1,8 @@
 ---
-title: 学习JS (1)
+title: 学习ES6特性
 published: 2024-12-13
 description: "let和const命令,变量的解构赋值。"
-tags: ["JavaScript"]
+tags: ["ES6"]
 category: Notes
 draft: false
 ---
@@ -86,7 +86,7 @@ var getGlobal = function () {
 ```
 :::tip
 但任何环境下，`globalThis`都是存在的，都可以从它拿到顶层对象，指向全局环境下的`this`。
-:::tip
+:::
 
 ### 4.变量的解构赋值
 #### 4.1.按数组
