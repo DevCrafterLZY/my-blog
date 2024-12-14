@@ -1,5 +1,5 @@
 ---
-title: 学习JS (1)
+title: 学习JS (3)
 published: 2024-12-14
 description: "标准库"
 tags: ["JavaScript"]

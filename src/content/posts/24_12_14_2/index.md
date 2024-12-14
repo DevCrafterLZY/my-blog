@@ -1,5 +1,5 @@
 ---
-title: 学习JS (1)
+title: 学习JS (2)
 published: 2024-12-14
 description: "语法专题"
 tags: ["JavaScript"]

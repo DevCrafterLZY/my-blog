@@ -1,5 +1,5 @@
 ---
-title: 学习JS (1)
+title: 学习JS (4)
 published: 2024-12-14
 description: "JS面向对象"
 tags: ["JavaScript"]

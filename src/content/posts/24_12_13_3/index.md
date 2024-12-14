@@ -9,7 +9,7 @@ draft: false
 
 ## sphinx
 
-sphinx是一个python库，其功能是可以通过项目的代码文件生成rst文件(类似于md文件)，即可以为项目自动生成文档
+sphinx是一个python库，其功能是可以通过项目的代码文件生成rst文件(类似于md文件)，通过sphinx可以为项目自动生成文档。
 
 ### 1. 安装
 
@@ -27,7 +27,9 @@ sphinx-quickstart
 ```
 回答下面的问题：
 
-除了`Separate source and build directories (y/n) [n]: y`其他可以随便写后面都可以在conf.py中修改：
+`Separate source and build directories (y/n) [n]:`该问题一般选择y
+
+其他选项可以随意填写，之后可以在配置中修改：
 ```
 > Separate source and build directories (y/n) [n]: y
 > Project name: test
@@ -37,7 +39,7 @@ sphinx-quickstart
 ### 3. 使用
 sphinx库的功能可以拆分为两个部分，一个是通过你的项目文件，生成一系列的rst文件，另一个是将rst文件生成html文件。
 
-并且两部分相互独立，也就是可以随意修改生成的rst文件，然后再生成html。
+并且两部分相互独立，也就是可以修改生成的rst文件，然后再生成想要的html。
 
 #### 3.1 生成rst文件
 假设有如下的项目文件夹结构：
@@ -48,7 +50,7 @@ test
 ├── source  // 生成的rst文件
 │   ├── conf.py
 │   └── index.rst
-└── src     // 源代码文件
+└── src     // 要生成文档的源代码文件
     └── test.py
 ```
 
@@ -81,8 +83,8 @@ html_static_path = ['_static']
 html_domain_indices = False
 html_show_sourcelink = False
 add_module_names = False
-# sphinx生成时需要当前环境中有项目所有的依赖包
-# 如果你的项目中有一些依赖包是没有安装的，可以在这里添加忽略就可以正常生成文档
+# sphinx生成文档时需要当前环境中有项目所有的依赖包
+# 如果你的项目中有一些依赖包是没有安装的，可以在这里添加忽略，就可以正常生成文档
 autodoc_mock_imports = [
 
 ]
@@ -97,7 +99,7 @@ sphinx-apidoc -o ./source ./src/
 可以看到在source文件夹下生成了一系列的rst文件。
 
 #### 3.2 生成html文件
-根据你的系统运行make文件。
+根据你的系统运行make文件，比如windows下的指令如下：
 ```bash
 ./make html
 ```
